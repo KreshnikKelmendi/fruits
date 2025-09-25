@@ -1,0 +1,10 @@
+<svg width="100" height="60" viewBox="0 0 100 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="60" rx="6" fill="#E12326"/>
+  <g transform="translate(20, 15)">
+    <!-- Leaf icon above the 'i' -->
+    <path d="M15 5C15 5 12 8 15 12C18 8 15 5 15 5Z" fill="white" opacity="0.9"/>
+    <path d="M15 5C15 5 12 8 15 12C18 8 15 5 15 5Z" stroke="white" stroke-width="0.5" fill="none"/>
+  </g>
+  <text x="50" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Doni</text>
+  <text x="50" y="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" opacity="0.8">FRUITS</text>
+</svg>
