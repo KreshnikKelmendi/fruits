@@ -48,7 +48,7 @@ const CompanyFeatures = () => {
                         What Makes Us <span className="text-red-600">Special</span>
                     </h2>
                     <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                        Founded in 1958, we've grown from a small family business to a leading company in the industry, 
+                        Founded in 1958, we&apos;ve grown from a small family business to a leading company in the industry, 
                         delivering excellence through innovation and dedication.
                     </p>
                 </motion.div>

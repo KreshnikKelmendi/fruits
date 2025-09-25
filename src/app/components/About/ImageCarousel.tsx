@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import History from './History';
 import Farm from './Farm';
 
@@ -137,9 +138,11 @@ const ImageCarousel = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="relative overflow-hidden rounded-2xl"
             >
-              <img
+              <Image
                 src={image.src}
                 alt={image.alt}
+                width={400}
+                height={384}
                 className="w-full h-64 md:h-80 lg:h-96 object-cover"
               />
             </motion.div>

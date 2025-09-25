@@ -68,8 +68,8 @@ const History = () => {
                 {/* Content */}
                 <div className="space-y-6 text-gray-600">
                   <p className="text-lg leading-relaxed">
-                    For over six decades, we've been cultivating excellence in every harvest, 
-                    bringing nature's finest to your table with unwavering dedication.
+                    For over six decades, we&apos;ve been cultivating excellence in every harvest, 
+                    bringing nature&apos;s finest to your table with unwavering dedication.
                   </p>
                   
                   <p className="text-lg leading-relaxed">

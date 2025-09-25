@@ -52,7 +52,7 @@ const CountUpText = () => {
 
             return () => timers.forEach(timer => clearInterval(timer));
         }
-    }, [countOn]);
+    }, [countOn, counterData]);
 
     const formatNumber = (num: number) => {
         return num.toLocaleString();

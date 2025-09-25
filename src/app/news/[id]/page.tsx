@@ -145,7 +145,7 @@ export default function NewsArticlePage() {
         <main className="min-h-screen pt-24 flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-800 mb-4">Article Not Found</h1>
-            <p className="text-lg text-gray-600 mb-8">The article you're looking for doesn't exist.</p>
+            <p className="text-lg text-gray-600 mb-8">The article you&apos;re looking for doesn&apos;t exist.</p>
             <button 
               onClick={() => router.push('/news')}
               className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 hover:scale-105"
