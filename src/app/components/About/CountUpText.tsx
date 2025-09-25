@@ -4,18 +4,18 @@ import React, { useEffect, useState } from "react";
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 
+const counterData = [
+    { target: 30000, label: "Collection" },
+    { target: 2490, label: "Sales" },
+    { target: 15800, label: "Distribution" }
+];
+
 const CountUpText = () => {
     const [countOn, setCountOn] = useState(false);
     const [counts, setCounts] = useState([0, 0, 0]);
     
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true, margin: "-100px" });
-
-    const counterData = [
-        { target: 30000, label: "Collection" },
-        { target: 2490, label: "Sales" },
-        { target: 15800, label: "Distribution" }
-    ];
 
     useEffect(() => {
         if (isInView) {
@@ -52,7 +52,7 @@ const CountUpText = () => {
 
             return () => timers.forEach(timer => clearInterval(timer));
         }
-    }, [countOn, counterData]);
+    }, [countOn]);
 
     const formatNumber = (num: number) => {
         return num.toLocaleString();

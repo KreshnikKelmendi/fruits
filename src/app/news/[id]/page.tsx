@@ -21,7 +21,7 @@ const newsData: NewsItem[] = [
     id: 1,
     title: "Fresh Harvest Season Begins",
     excerpt: "Our farm is excited to announce the start of the fresh harvest season with premium quality fruits.",
-    content: "This season brings us the finest selection of organic fruits, carefully cultivated using sustainable farming practices. We're proud to offer our customers the freshest produce available. Our harvest season typically runs from early spring through late fall, ensuring a continuous supply of high-quality fruits throughout the year. Each fruit is hand-picked at the perfect moment of ripeness to guarantee maximum flavor and nutritional value. We work closely with local agricultural experts to maintain the highest standards of quality and freshness.",
+    content: "This season brings us the finest selection of organic fruits, carefully cultivated using sustainable farming practices. We&apos;re proud to offer our customers the freshest produce available. Our harvest season typically runs from early spring through late fall, ensuring a continuous supply of high-quality fruits throughout the year. Each fruit is hand-picked at the perfect moment of ripeness to guarantee maximum flavor and nutritional value. We work closely with local agricultural experts to maintain the highest standards of quality and freshness.",
     image: "/assets/products/product-1.png",
     date: "2024-01-15",
     category: "Harvest"
@@ -29,8 +29,8 @@ const newsData: NewsItem[] = [
   {
     id: 2,
     title: "New Organic Certification",
-    excerpt: "We're proud to announce our official organic certification for all our fruit varieties.",
-    content: "After months of rigorous testing and compliance with organic standards, our farm has received official organic certification. This ensures our customers receive the highest quality, chemical-free fruits. The certification process involved comprehensive soil testing, water quality analysis, and strict adherence to organic farming practices. We've eliminated all synthetic pesticides and fertilizers, replacing them with natural alternatives that promote soil health and biodiversity. This certification represents our commitment to sustainable agriculture and environmental stewardship.",
+    excerpt: "We&apos;re proud to announce our official organic certification for all our fruit varieties.",
+    content: "After months of rigorous testing and compliance with organic standards, our farm has received official organic certification. This ensures our customers receive the highest quality, chemical-free fruits. The certification process involved comprehensive soil testing, water quality analysis, and strict adherence to organic farming practices. We&apos;ve eliminated all synthetic pesticides and fertilizers, replacing them with natural alternatives that promote soil health and biodiversity. This certification represents our commitment to sustainable agriculture and environmental stewardship.",
     image: "/assets/products/product-2.png",
     date: "2024-01-10",
     category: "Certification"
@@ -39,7 +39,7 @@ const newsData: NewsItem[] = [
     id: 3,
     title: "Sustainable Farming Practices",
     excerpt: "Learn about our commitment to sustainable farming and environmental protection.",
-    content: "Our farm implements cutting-edge sustainable farming techniques that protect the environment while producing exceptional fruits. We use renewable energy, water conservation methods, and natural pest control. Our sustainable practices include crop rotation, cover cropping, and integrated pest management. We've installed solar panels to power our operations and implemented drip irrigation systems to minimize water usage. Our commitment to sustainability extends beyond farming to include packaging, transportation, and waste management practices that minimize our environmental footprint.",
+    content: "Our farm implements cutting-edge sustainable farming techniques that protect the environment while producing exceptional fruits. We use renewable energy, water conservation methods, and natural pest control. Our sustainable practices include crop rotation, cover cropping, and integrated pest management. We&apos;ve installed solar panels to power our operations and implemented drip irrigation systems to minimize water usage. Our commitment to sustainability extends beyond farming to include packaging, transportation, and waste management practices that minimize our environmental footprint.",
     image: "/assets/products/product-3.png",
     date: "2024-01-05",
     category: "Sustainability"
@@ -47,8 +47,8 @@ const newsData: NewsItem[] = [
   {
     id: 4,
     title: "Community Partnership Program",
-    excerpt: "We're launching a new program to support local communities and farmers.",
-    content: "Our community partnership program aims to support local farmers and communities by providing training, resources, and fair trade opportunities. Together, we're building a stronger agricultural community. The program includes educational workshops, mentorship opportunities, and access to our distribution network. We're committed to fair pricing and transparent business practices that benefit all stakeholders in our supply chain. This initiative has already helped over 50 local farmers improve their yields and market access.",
+    excerpt: "We&apos;re launching a new program to support local communities and farmers.",
+    content: "Our community partnership program aims to support local farmers and communities by providing training, resources, and fair trade opportunities. Together, we&apos;re building a stronger agricultural community. The program includes educational workshops, mentorship opportunities, and access to our distribution network. We&apos;re committed to fair pricing and transparent business practices that benefit all stakeholders in our supply chain. This initiative has already helped over 50 local farmers improve their yields and market access.",
     image: "/assets/products/product-4.png",
     date: "2024-01-01",
     category: "Community"
@@ -66,7 +66,7 @@ const newsData: NewsItem[] = [
     id: 6,
     title: "Farm-to-Table Initiative",
     excerpt: "Our new farm-to-table program ensures the freshest fruits reach your table.",
-    content: "The farm-to-table initiative reduces the time between harvest and delivery, ensuring maximum freshness and nutritional value. Our fruits are picked at peak ripeness and delivered within 24 hours. This program eliminates unnecessary middlemen and reduces transportation time, resulting in fresher, more nutritious fruits. We've partnered with local restaurants and grocery stores to provide direct delivery services. The initiative has reduced our carbon footprint by 30% while improving fruit quality and customer satisfaction.",
+    content: "The farm-to-table initiative reduces the time between harvest and delivery, ensuring maximum freshness and nutritional value. Our fruits are picked at peak ripeness and delivered within 24 hours. This program eliminates unnecessary middlemen and reduces transportation time, resulting in fresher, more nutritious fruits. We&apos;ve partnered with local restaurants and grocery stores to provide direct delivery services. The initiative has reduced our carbon footprint by 30% while improving fruit quality and customer satisfaction.",
     image: "/assets/products/product-1.png",
     date: "2023-12-20",
     category: "Quality"
@@ -111,7 +111,7 @@ const newsData: NewsItem[] = [
     id: 11,
     title: "New Fruit Varieties",
     excerpt: "Introducing exciting new fruit varieties to our collection.",
-    content: "We're excited to introduce new fruit varieties that bring unique flavors and textures to our collection. These carefully selected additions expand our diverse fruit offerings. The new varieties include exotic fruits from different regions, hybrid varieties with enhanced flavor profiles, and heirloom varieties that preserve traditional tastes. Each new variety undergoes extensive testing to ensure it meets our quality standards and customer expectations. We're constantly exploring new opportunities to expand our fruit collection and provide customers with exciting new options.",
+    content: "We&apos;re excited to introduce new fruit varieties that bring unique flavors and textures to our collection. These carefully selected additions expand our diverse fruit offerings. The new varieties include exotic fruits from different regions, hybrid varieties with enhanced flavor profiles, and heirloom varieties that preserve traditional tastes. Each new variety undergoes extensive testing to ensure it meets our quality standards and customer expectations. We&apos;re constantly exploring new opportunities to expand our fruit collection and provide customers with exciting new options.",
     image: "/assets/products/product-1.png",
     date: "2023-11-20",
     category: "New"
